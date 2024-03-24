@@ -1,0 +1,19 @@
+.inner-column-campana{
+  /*margin-left: -350px!important;*/
+}
+
+.content-column-campana{
+  /*right: -430px!important;;*/
+}
+.campana .inner-box .link a:before{
+  background: #f8f8fa;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .inner-column-campana{
+    margin-left: 0px!important;
+  }
+  .content-column-campana{
+    right: 0px!important;
+  }
+}

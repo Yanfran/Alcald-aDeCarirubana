@@ -1,0 +1,11 @@
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#Noticias
+#RewriteRule ^noticia/([0-9]+)$ noticia.php?id=$1
+#Noticias Search
+#RewriteRule ^noticia-search/([0-9]+)$ noticia-search.php?texto=$1
+#Noticias Search Date
+#RewriteRule ^noticia-search-date/([0-9]+)$ noticia-search-date.php?date1=$1&date2=$2&categoria=$3
+

@@ -1,0 +1,12 @@
+
+.centrado{
+  /*height: 100vh!important;*/
+  /*background-color: #000;*/
+  /*height: 650px;*/
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  /*position: fixed;*/
+}
+
+
